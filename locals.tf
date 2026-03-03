@@ -17,7 +17,7 @@ locals{
         local.common_tags,
         {
              Name = "${var.project}-${var.environment}"
-        }
+        },
         var.igw_tags
     )
 }
